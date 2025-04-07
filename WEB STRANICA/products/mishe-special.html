@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/product-style/mishestyle.css">
+  <title>Mishe's Special - Meltzy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">  
+</head>
+<body>
+<header>
+  Meltzy - Pure Chocolate Bliss
+</header>
+<nav>
+  <a href="../index.html">Home</a>
+  <a href="../about.html">About</a>
+  <a href="../products.html">Products</a>
+  <a href="../contact.html">Contact</a>
+  <a href="../addtocart.html">View Cart</a>
+</nav>
+<section class="product-container">
+  <img src="../pictures/whiteballs.png" alt="Mishe's Special Chocolate">
+  <h2>Mishe's Special 🤍</h2>
+  <h4>MOST POPULAR! 🔥</h4>
+  <p>Our expert chocolatier’s masterpiece! A luxurious blend of creamy white chocolate and <br>roasted hazelnuts, 
+    offering the perfect balance of crunch and smoothness. Every bite<br> melts in your mouth, leaving behind a heavenly sweetness and nutty delight.</p>
+  <p>Handcrafted with premium ingredients and perfected for true chocolate lovers.</p> <br>
+  <p class="price">Price: $13.99</p><br>
+
+  <button class="btn" onclick="addToCart()">Add to Cart</button>
+</section>
+<div class="review"></div>
+<section>
+ <h3>Did you enjoy? Add your review.<h3>
+     <textarea id="reviewInput" placeholder="Write your review here..."></textarea>
+     <br>
+     <br>
+    <button class="btn" onclick="addReview()">Submit Review</button>
+
+</section>
+
+<footer>
+  © 2025 Meltzy. All rights reserved.
+</footer>
+<script>
+  function addToCart() {
+    alert("Mishe's Special is added to your cart!");
+  }
+
+  const textarea=document.getElementById('reviewInput') 
+     textarea.style.height='105px';
+     textarea.style.width='410px';
+
+  function addReview() {
+        const reviewInput = document.getElementById('reviewInput');
+        const reviewText = reviewInput.value.trim();
+        if (reviewText) {
+            alert('Submitted!')
+        } else {
+          alert('Please write a review before submitting.');
+        }
+      }
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/product-style/mintmagic.css">
+  <title>Dark Delight - Meltzy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">  
+</head>
+<body>
+<header>
+  Meltzy - Pure Chocolate Bliss
+</header>
+<nav>
+  <a href="../index.html">Home</a>
+  <a href="../about.html">About</a>
+  <a href="../products.html">Products</a>
+  <a href="../contact.html">Contact</a>
+  <a href="../addtocart.html">View Cart</a>
+</nav>
+<section class="product-container">
+  <img src="../pictures/mintchoco.jpg" alt="Nutty Nibbles.">
+  <h2>Mint Magic</h2>
+  <Br>
+  <p>IA refreshing mint filling delivers a cool, invigorating burst of flavor,<br> 
+    perfectly balanced by a shell of rich, decadent dark chocolate. Smooth and<br>
+    satisfying, it's a timeless blend of bold and fresh in every bite.</p> <br>
+  <p class="price">Price: $10.49</p>
+  <br>
+  <br>
+  <button class="btn" onclick="addToCart()">Add to Cart</button>
+  <br>
+  <br>
+
+  </section>
+<div class="review"></div>
+<section>
+ <h3>Did you enjoy? Add your review.<h3>
+     <textarea id="reviewInput" placeholder="Write your review here..."></textarea>
+     <br>
+     <br>
+    <button class="btn" onclick="addReview()">Submit Review</button>
+
+</section>
+
+<footer>
+  © 2025 Meltzy. All rights reserved.
+</footer>
+<script>
+  function addToCart() {
+    alert("Nutty Nibbles is added to your cart!");
+  }
+
+  const textarea=document.getElementById('reviewInput') 
+     textarea.style.height='105px';
+     textarea.style.width='410px';
+
+  function addReview() {
+        const reviewInput = document.getElementById('reviewInput');
+        const reviewText = reviewInput.value.trim();
+        if (reviewText) {
+            alert('Submitted!')
+        } else {
+          alert('Please write a review before submitting.');
+        }
+      }
+
+   
+</script>
+</body>
+</html>

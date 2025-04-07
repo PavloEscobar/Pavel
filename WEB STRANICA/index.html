@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meltzy - Pure Chocolate Bliss</title>
+  <link rel="stylesheet" href="style/styleindex.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sigmar&display=swap" rel="stylesheet">
+
+  <script>
+    function showShowcase() {
+      document.querySelector('.showcase').style.display = 'block';
+      window.scrollTo({ top: document.querySelector('.showcase').offsetTop, behavior: 'smooth' });
+    }
+  </script>
+</head>
+<body>
+<header>
+  Meltzy - Pure Chocolate Bliss
+</header>
+<nav>
+  <a href="#home">Home</a>
+  <a href="about.html">About</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a href="addtocart.html">View Cart</a>
+
+</nav>
+<section class="hero">
+  <h1>Welcome to Meltzy</h1>
+  <p>Indulge in the silky, rich flavor of Meltzy — where every bite is a moment of pure bliss.</p>
+  <button class="btn" onclick="showShowcase()">Discover Meltzy</button>
+</section>
+<div class="linija">
+  <br>
+</div>
+<section id="about" class="about">
+  <h2>About Meltzy</h2>
+  <p>Meltzy is crafted with the finest cocoa beans and natural ingredients, delivering an unforgettable chocolate experience.</p>
+  <p>Our dedication to quality ensures every bite is smooth, rich, and irresistibly delicious.</p>
+</section>
+<br>
+<section class="showcase" id="products">
+  <h2>The Meltzy Collection</h2>
+  <p>Experience our range of handcrafted chocolate bars made with the finest ingredients.</p>
+  <p>Dark Delight, Nutty Nibbles, Caramel Craze — there's a Meltzy for everyone!</p>
+</section>
+<footer>
+  © 2025 Meltzy. All rights reserved.
+</footer>
+</body>
+</html>

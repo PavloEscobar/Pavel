@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: #F5EFE6;
+    color: #3A3A3A;
+    text-align: center; 
+    font-family: "Sigmar", sans-serif;
+    font-style: normal;
+    
+  }
+  header {
+    padding: 2rem 0;
+    background: #8B4513;
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Sigmar", sans-serif;
+    font: bold;
+    -webkit-text-stroke: 0.8px white;
+  }
+  nav {
+    padding: 1rem;
+    background: #A0522D;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #F5EFE6;
+  }
+  .hero {
+    padding: 6rem 2rem;
+    background-image:url(https://www.wallpaperflare.com/static/1020/516/990/chocolate-box-candies-allsorts-wallpaper.jpg);
+  }
+  .hero h1 {
+    font-size: 4rem;
+    color: #8B4513;
+    margin-bottom: 1.5rem;
+    -webkit-text-stroke: 1px white;
+  }
+  .hero p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color:#fff;
+    -webkit-text-stroke: 1px black;
+  }
+  .btn {
+    background: #8B4513;
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .btn:hover {
+    background: #A0522D;
+  }
+  .showcase {
+    display: none;
+    padding: 4rem 2rem;
+    background-image: url("../pictures/showcase.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  .showcase h2 {
+    font-size: 3rem;
+    color: #8B4513;
+    margin-bottom: 2rem;
+    -webkit-text-stroke: 1px white;
+  }
+  .showcase p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: white;
+    -webkit-text-stroke: 0.8px black;
+  }
+  .about {
+    padding: 4rem 2rem;
+    background-image:url("../pictures/assortedch.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .about h2 {
+    font-size: 2.5rem;
+    color: #8B4513;
+    margin-bottom: 1.5rem;
+    -webkit-text-stroke: 1px white;
+  }
+  .about p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
+  footer {
+    padding: 2rem;
+    background: #8B4513;
+    color: #FFF;
+    font-size: 0.9rem;
+  }
+  .linija {
+    background: #ffffff;
+  }

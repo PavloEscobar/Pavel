@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Meltzy</title>
+  <link rel="stylesheet" href="style/stylecheckout.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sigmar&display=swap" rel="stylesheet">
+  <style>
+  
+  </style>
+</head>
+<body>
+<header>
+  Meltzy - Pure Chocolate Bliss
+</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a href="addtocart.html">View Cart</a>
+</nav>
+<section class="checkout">
+  <h1>Checkout</h1>
+  <div class="cart-items">
+    <h2>Your Cart</h2>
+    <p>Nothing in cart yet!</p>
+    <div class="total">Total: Cart is Empty.</div>
+  </div>
+  <div class="checkout-form">
+    <h2>Payment Details</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="card">Card Number</label>
+      <input type="text" id="card" name="card" required>
+      <label for="expiry">Expiry Date</label>
+      <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+      <label for="cvv">CVV</label>
+      <input type="text" id="cvv" name="cvv" required>
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+</section>
+<footer>
+  © 2025 Meltzy. All rights reserved.
+</footer>
+</body>
+</html>
